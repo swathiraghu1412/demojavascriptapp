@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fort.jpg);
+    background-size: 500px;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 120vh;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-area li{
+    list-style: none;
+    display: inline-block;
+}
+
+.search-form{
+    margin-top: 5px;
+    float: right;
+    margin-right: 100px;
+}
+
+input[type=text]{
+    padding: 3px;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.btn{
+    float: right;
+    background: grey;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    font-family: sans-serif;
+    border: none;
+    font-size: 20px;
+}
+
+.custom-padding{
+    padding-top: 25px
+}
+
+nav{
+    position: relative;
+    padding: 10px 20px 10px 20px;
+    text-align: left;
+    margin: 0 auto;
+    background: black;
+    width: cal(100%-60px);
+    z-index: 1;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+    color: pink;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 3%;
+}
+.signin{
+    width: 15%;
+    float: right;
+    padding-right: 40%;
+    padding-top: 10%
+}
+input[type=username]{
+    padding: 3px;
+    border: solid;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(183, 214, 243);
+}
+input[type=password]{
+    padding: 3px;
+    border: solid;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(183, 214, 243);
+}
+input[type=submit]{
+    padding: 5px;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: grey;
+    
+}
